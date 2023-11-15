@@ -3,7 +3,7 @@
 local c = require('midnight.colors').components
 
 return {
-  Comment = { fg = c.comment, style = 'italic' },
+  Comment = { fg = c.comment },
   Conditional = { fg = c.keyword },
   Constant = { fg = c.constant },
   Delimiter = { fg = c.fg },

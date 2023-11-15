@@ -18,10 +18,10 @@ return {
   DapUIWatchesValue = { link = 'DapUICustomFG' },
   DapUIStoppedThread = { link = 'DapUICustomFG' },
   DapUIFrameName = { link = 'Function' },
-  DapUICurrentFrameName = { fg = c.method, style = 'bold,italic' },
+  DapUICurrentFrameName = { fg = c.method, style = 'bold' },
   DapUISource = { link = 'Identifier' },
   DapUIBreakpointsPath = { link = 'DapUICustomFG' },
   DapUIBreakpointsInfo = { link = 'Type' },
   DapUIBreakpointsLine = { link = 'Operator' },
-  DapUIBreakpointsCurrentLine = { fg = c.operator, style = 'bold,italic' },
+  DapUIBreakpointsCurrentLine = { fg = c.operator, style = 'bold' },
 }

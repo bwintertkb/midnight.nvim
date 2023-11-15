@@ -67,51 +67,63 @@ local palette = {
 }
 
 local components = {
-  -- main
-  none = 'NONE',
-  bg = '#080c10',
-  fg = '#b5bdc5',
+	-- main
+	none = 'NONE',
+	bg = '#000000',
+	fg = '#b5bdc5',
 
-  -- miscellaneous
-  border = '#393939',
-  visual = '#012749',
-  tabsel = '#697077',
-  tags = '#e07980',
-  title = '#5579f0',
+	-- miscellaneous
+	border = '#393939',
+	visual = '#012749',
+	tabsel = '#697077',
+	tags = '#e07980',
+	title = '#5579f0',
 
-  -- syntax
-  comment = '#878d96',
-  constant = '#5080ff',
-  field = '#7ac098',
-  keyword = '#a665d0',
-  literal = '#ca7050',
-  method = '#c8b670',
-  namespace = '#a3a0d8',
-  operator = '#ff7279',
-  parameter = '#50b0e0',
-  string = '#e0a076',
-  type = '#0ab6ba',
-  variable = '#9ac6e0',
+	-- syntax
+	-- comment = '#878d96',
+	-- constant = '#5080ff',
+	-- field = '#7ac098',
+	-- keyword = '#6c9390',
+	-- literal = '#ca7050',
+	-- method = '#c8b670',
+	-- namespace = '#a3a0d8',
+	-- operator = '#ff7279',
+	-- parameter = '#A7C7E7',
+	-- string = '#77dd77',
+	-- type = '#A7C7E7',
+	-- variable = '#ffffce',
+	comment = '#878d96',
+	constant = '#b0c4de',
+	field = '#c4deba',
+	keyword = '#6c9390',
+	literal = '#b0c4de',
+	method = '#fbc8b3',
+	namespace = '#c4deba',
+	operator = '#fde0ac',
+	parameter = '#b0c4de',
+	string = '#8fbc8f',
+	type = '#b0c4de',
+	variable = '#f2e6f3',
 
-  -- indicators
-  error = palette.red[3],
-  warn = palette.orange[1],
-  info = palette.blue[2],
-  hint = palette.gray[4],
-  success = palette.green[3],
-  default = palette.cyan[2],
+	-- indicators
+	error = palette.red[3],
+	warn = palette.orange[1],
+	info = palette.blue[2],
+	hint = palette.gray[4],
+	success = palette.green[3],
+	default = palette.cyan[2],
 }
 
 -- terminal palette; each color { dark, light } variants
 local terminal = {
-  black = { palette.gray[8], palette.gray[5] },
-  red = { components.error, components.operator },
-  green = { palette.green[4], components.field },
-  yellow = { components.method, palette.yellow[1] },
-  blue = { components.constant, palette.blue[3] },
-  purple = { components.keyword, components.namespace },
-  cyan = { components.parameter, components.variable },
-  white = { components.fg, palette.gray[1] },
+	black = { palette.black, palette.black },
+	red = { components.error, components.operator },
+	green = { palette.green[4], components.field },
+	yellow = { components.method, palette.yellow[1] },
+	blue = { components.constant, palette.blue[3] },
+	purple = { components.keyword, components.namespace },
+	cyan = { components.parameter, components.variable },
+	white = { components.fg, palette.gray[1] },
 }
 
 return { components = components, palette = palette, terminal = terminal }

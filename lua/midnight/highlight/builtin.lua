@@ -16,7 +16,7 @@ return {
   EndOfBuffer = { fg = c.bg },
   ErrorMsg = { fg = c.error },
   WinSeparator = { link = 'Border' },
-  Folded = { fg = c.bg, bg = p.gray[5], style = 'bold,italic' },
+  Folded = { fg = c.bg, bg = p.gray[5], style = 'bold' },
   FoldColumn = { link = 'Folded' },
   SignColumn = { bg = c.bg },
   IncSearch = { fg = c.bg, bg = p.orange[1] },
