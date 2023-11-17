@@ -103,7 +103,7 @@ local components = {
 	parameter = '#b0c4de',
 	string = '#8fbc8f',
 	type = '#b0c4de',
-	variable = '#f2e6f3',
+	variable = '#fffff2',
 
 	-- indicators
 	error = palette.red[3],
