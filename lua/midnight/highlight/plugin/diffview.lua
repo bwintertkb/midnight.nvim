@@ -17,7 +17,7 @@ return {
 	DiffviewFilePanelRootPath = { link = 'NvimTreeRootFolder' },
 	DiffviewFilePanelTitle = { link = 'Title' },
 	DiffviewFilePanelCounter = { fg = p.cyan[1] },
-	DiffviewFilePanelSelected = { style = 'bold,italic' },
+	DiffviewFilePanelSelected = { style = 'bold' },
 	DiffviewFilePanelInsertions = { link = 'GitNew' },
 	DiffviewFilePanelDeletions = { link = 'GitDeleted' },
 	DiffviewFilePanelConflicts = { link = 'GitMerge' },
