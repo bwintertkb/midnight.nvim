@@ -69,7 +69,7 @@ local palette = {
 local components = {
 	-- main
 	none = 'NONE',
-	bg = '#000000',
+	bg = '#080c10',
 	fg = '#b5bdc5',
 
 	-- miscellaneous
@@ -80,30 +80,31 @@ local components = {
 	title = '#5579f0',
 
 	-- syntax
-	-- comment = '#878d96',
-	-- constant = '#5080ff',
-	-- field = '#7ac098',
-	-- keyword = '#6c9390',
-	-- literal = '#ca7050',
-	-- method = '#c8b670',
-	-- namespace = '#a3a0d8',
-	-- operator = '#ff7279',
-	-- parameter = '#A7C7E7',
-	-- string = '#77dd77',
-	-- type = '#A7C7E7',
-	-- variable = '#ffffce',
 	comment = '#878d96',
-	constant = '#b0c4de',
-	field = '#c4deba',
+	constant = '#5080ff',
+	field = '#7ac098',
 	keyword = '#6c9390',
-	literal = '#b0c4de',
-	method = '#fbc8b3',
-	namespace = '#c4deba',
-	operator = '#fde0ac',
-	parameter = '#b0c4de',
-	string = '#8fbc8f',
-	type = '#b0c4de',
-	variable = '#fffff2',
+	literal = '#ca7050',
+	method = '#c8b670',
+	namespace = '#a3a0d8',
+	operator = '#ff7279',
+	parameter = '#A7C7E7',
+	string = '#77dd77',
+	type = '#A7C7E7',
+	variable = '#ffffce',
+	-- variable = '#9ac6e0',
+	-- comment = '#878d96',
+	-- constant = '#b0c4de',
+	-- field = '#c4deba',
+	-- keyword = '#6c9390',
+	-- literal = '#b0c4de',
+	-- method = '#fbc8b3',
+	-- namespace = '#c4deba',
+	-- operator = '#fde0ac',
+	-- parameter = '#b0c4de',
+	-- string = '#8fbc8f',
+	-- type = '#b0c4de',
+	-- variable = '#fffff2',
 
 	-- indicators
 	error = palette.red[3],
@@ -116,7 +117,7 @@ local components = {
 
 -- terminal palette; each color { dark, light } variants
 local terminal = {
-	black = { palette.black, palette.black },
+	black = { palette.gray[8], palette.gray[5] },
 	red = { components.error, components.operator },
 	green = { palette.green[4], components.field },
 	yellow = { components.method, palette.yellow[1] },
